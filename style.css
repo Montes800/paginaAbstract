@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 html, body{
     height: 100%;
@@ -92,14 +93,14 @@ form .h10 input:last-of-type{
 main{
     padding: 40px 0;
 }
-main .container {
+main .conteiner {
     max-width: 1400px;
     flex-wrap: wrap;
 }
 main .h20{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    
     margin: 45px 8px;
     width: calc(50% - 16px);
 }
@@ -121,27 +122,31 @@ footer{
     background-color: black;
     width: 100%;
 }
-footer .container{
-    padding: 50% 0;
+footer .h30 h2{
+    color: white;
+}
+footer .conteiner{
+    padding: 50px 0;
     flex-wrap: wrap;
-    align-items: center;
+    align-items:normal;
 } 
 footer .h30{
     width: 20%;
     display: flex;
     flex-direction: column;
+    
 }
 footer .h30 a {
     color: white;
     text-decoration: none;
     font-size: 16px;
 }
-footer .h30:last-of-type {
-    margin-top: 180px;
+footer .h30 i:last-of-type {
+    margin-top: 90px;
 }
 footer .h30 i {
     color: white;
 }
-footer .w20 p {
+footer .h30 p {
     color: white;
 }
